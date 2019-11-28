@@ -8,9 +8,12 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "start:debug": "node --inspect node_modules/.bin/nuxt start",
+    "loadtest": "loadtest -c 10 --rps 10 http://localhost:3000/"
   },
   "dependencies": {
+    "loadtest": "^3.0.9",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {}

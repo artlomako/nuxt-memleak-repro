@@ -9,7 +9,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "start:debug": "node --inspect node_modules/.bin/nuxt start",
+    "start:debug": "node --max-old-space-size=64 --inspect node_modules/.bin/nuxt start",
     "loadtest": "loadtest -c 10 --rps 10 http://localhost:3000/"
   },
   "dependencies": {

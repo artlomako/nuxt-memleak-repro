@@ -1,0 +1,17 @@
+{
+  "name": "nuxt-memleak-repro",
+  "version": "1.0.0",
+  "description": "My good Nuxt.js project",
+  "author": "Artur Lomako",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}

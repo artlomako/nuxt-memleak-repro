@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
+    "start": "node --max-old-space-size=64 node_modules/.bin/nuxt start",
     "generate": "nuxt generate",
     "start:debug": "node --max-old-space-size=64 --inspect node_modules/.bin/nuxt start",
     "loadtest": "loadtest -c 10 --rps 10 http://localhost:3000/"
